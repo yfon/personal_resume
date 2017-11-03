@@ -1,0 +1,69 @@
+ body {
+  background-color: #f6efd2
+ }
+ /*版心*/
+
+ .banner {
+  width: 638px;
+  height: 898px;
+  position: absolute;
+  left: 50%;
+  margin-left: -319px;
+  margin-top: 20px;
+ }
+ /*头部*/
+
+ .name {
+  margin-top: 10px;
+  font: 25px micsoft yahei;
+  text-align: center;
+ }
+
+ .media .media-heading {
+  font: 25px bold Simsun, arial, sans-serif;
+  color: #f6e2;
+  margin: 15px 0 0 15px;
+ }
+
+ .media .personal {
+  width: 124px;
+  height: 151px;
+  background: url('../img/21.png') no-repeat;
+ }
+ /*connection*/
+
+ .media .post {
+  font: 15px bold Simsun, arial, sans-serif;
+  margin: 12px 0 0 15px;
+ }
+
+ .media .csdn,
+ .media .github,
+ .tel,
+ .qq,
+ .email {
+  margin: 5px 0 0 15px;
+ }
+ /*college*/
+
+ .media .row .learning {
+  margin-top: 13px;
+ }
+
+ .learning .college,
+ .major,
+ .sex,
+ .shenfen,
+ .jiangli {
+  margin-bottom: 5px;
+ }
+ /*字体图标*/
+
+ .beizu {
+  margin-top: 40px;
+  line-height: 20px;
+ }
+
+ .fa span {
+  color: #F5D;
+ }
