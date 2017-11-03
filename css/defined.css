@@ -65,5 +65,13 @@
  }
 
  .fa span {
-  color: #F5D;
+  color: #000;
+ }
+ /*resume*/
+
+ .resume {
+  margin: 15px 0 0 15px;
+  font: 15px micsoft yahei;
+  color: #000;
+  text-align: center;
  }
