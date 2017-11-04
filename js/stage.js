@@ -140,8 +140,8 @@
  });
  circleTextJquery.addGroup(animateGroup1);
 
- var x4 = outerDash * Math.cos(-120 * Math.PI / 180);
- var y4 = outerDash * Math.sin(-120 * Math.PI / 180);
+ var x4 = outerDash * Math.cos(270 * Math.PI / 180);
+ var y4 = outerDash * Math.sin(270 * Math.PI / 180);
 
  var circleTextKonva = new CircleText({
   x: x4,
@@ -158,8 +158,8 @@
  });
  circleTextKonva.addGroup(animateGroup2);
 
- var x4 = outerDash * Math.cos(120 * Math.PI / 180);
- var y4 = outerDash * Math.sin(120 * Math.PI / 180);
+ var x4 = outerDash * Math.cos(180 * Math.PI / 180);
+ var y4 = outerDash * Math.sin(180 * Math.PI / 180);
 
  var circleTextJs = new CircleText({
   x: x4,
@@ -176,10 +176,10 @@
  });
  circleTextJs.addGroup(animateGroup2);
 
- var x5 = outerDash * Math.cos(-30 * Math.PI / 180);
- var y5 = outerDash * Math.sin(-30 * Math.PI / 180);
+ var x5 = outerDash * Math.cos(90 * Math.PI / 180);
+ var y5 = outerDash * Math.sin(90 * Math.PI / 180);
 
- var circleTextCanvas = new CircleText({
+ var circleTextPS = new CircleText({
   x: x5,
   y: y5,
   innerRadius: 40,
@@ -192,11 +192,29 @@
   fill: '#fff',
 
  });
- circleTextCanvas.addGroup(animateGroup2);
+ circleTextPS.addGroup(animateGroup2);
+
+ var x6 = outerDash * Math.cos(0 * Math.PI / 180);
+ var y6 = outerDash * Math.sin(0 * Math.PI / 180);
+
+ var circleTextboostrap = new CircleText({
+  x: x6,
+  y: y6,
+  innerRadius: 40,
+  outerRadius: 50,
+  innerStyle: '#0EEB5A',
+  outerStyle: '#E0E0E0',
+  text: 'boostrap',
+  opacity: .1,
+  fontSize: 16,
+  fill: '#fff',
+
+ });
+ circleTextboostrap.addGroup(animateGroup2);
  // 动画
  var eachSecondAngle = 60;
  var anim = new Konva.Animation(function(frame) {
-  var rotateAngle = eachSecondAngle * frame.timeDiff / 1000;
+  var rotateAngle = eachSecondAngle * frame.timeDiff / 100000;
   animateGroup1.rotate(rotateAngle);
   animateGroup1.getChildren().each(function(index, el) {
    index.rotate(-rotateAngle);

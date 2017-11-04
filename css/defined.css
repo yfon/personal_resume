@@ -21,7 +21,7 @@
 
  .media .media-heading {
   font: 25px bold Simsun, arial, sans-serif;
-  color: #f6e2;
+
   margin: 15px 0 0 15px;
  }
 
@@ -37,35 +37,71 @@
   margin: 12px 0 0 15px;
  }
 
- .media .csdn,
- .media .github,
- .tel,
- .qq,
- .email {
+ .blog {
   margin: 5px 0 0 15px;
  }
- /*college*/
 
- .media .row .learning {
-  margin-top: 13px;
+ .blog .csdn,
+ .github,
+ .sex {
+  padding: 0;
+  margin-top: 15px;
  }
 
- .learning .college,
- .major,
- .sex,
- .shenfen,
- .jiangli {
-  margin-bottom: 5px;
+ .sex .gender,
+ .borth,
+ .shenfen {
+  text-align: center;
+ }
+
+ .learning,
+ .hobby {
+  font-size: 18px;
+ }
+
+ .miaoshu {
+  position: absolute;
+  left: 100px;
+  top: 680px;
+  text-align: center;
+ }
+
+ .miaoshu .hobby {
+  left: 240px;
  }
  /*字体图标*/
 
- .beizu {
-  margin-top: 40px;
+ .beizu,
+ .address {
+  margin-top: 20px;
   line-height: 20px;
  }
 
  .fa span {
   color: #000;
+ }
+ /*aboutme*/
+
+ .aboutme,
+ .jy {
+  font-size: 20px;
+  margin: 20px 0;
+ }
+
+ .about,
+ .jiao {
+  margin: 20px 0 0 20px;
+  font-size: 14px;
+ }
+
+ .learning .college,
+ .major,
+ .cji,
+ .jiangli,
+ .jsj,
+ .bishai {
+  font-size: 14px;
+  margin-bottom: 5px;
  }
  /*resume*/
 
@@ -73,5 +109,6 @@
   margin: 15px 0 0 15px;
   font: 15px micsoft yahei;
   color: #000;
+
   text-align: center;
  }
